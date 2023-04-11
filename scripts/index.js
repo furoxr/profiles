@@ -86,7 +86,7 @@ function extractIssue(issueBody) {
   const profiles = {};
   const regex = /###\s+(\w+)\s+(.+)\s+/gm;
   let match;
-  while ((match = regex.exec(text)) !== null) {
+  while ((match = regex.exec(issueBody)) !== null) {
     const [, label, value] = match;
     if (["Nickname", "Role", "Picture", "Address"].indexOf(label) == -1) {
       continue;
