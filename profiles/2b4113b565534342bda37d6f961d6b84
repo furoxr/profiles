@@ -1,0 +1,20 @@
+{
+  "name": "Darwinia Community DAO Profile",
+  "user_id": "2b4113b565534342bda37d6f961d6b84",
+  "description": "Long may the sun shine!",
+  "image": "ipfs://{dir_cid}/uuid",
+  "attributes": [
+    {
+      "trait_type": "Version",
+      "value": "0"
+    },
+    {
+      "trait_type": "Nickname",
+      "value": "Nada"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Writer"
+    }
+  ]
+}
